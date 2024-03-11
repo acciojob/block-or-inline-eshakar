@@ -1,2 +1,9 @@
-
+ /* Style for div blocks */
+        .block {
+            display: block;
+        }
+        /* Style for inline elements */
+        .inline {
+            display: inline;
+        }
 /* Your CSS Code here. */
