@@ -1,9 +1,15 @@
- /* Style for div blocks */
-        .block {
-            display: block;
+ .block-inline-button, .block-inline-div, .block-inline-span, .block-inline-p, .block-inline-input, .block-inline-cite, .block-inline-code, .block-inline-h1, .block-inline-sup, .block-inline-sub {
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid black;
         }
-        /* Style for inline elements */
-        .inline {
-            display: inline;
+        .block-inline-button:first-child, .block-inline-div:first-child, .block-inline-span:first-child, .block-inline-p:first-child, .block-inline-input:first-child, .block-inline-cite:first-child, .block-inline-code:first-child, .block-inline-h1:first-child, .block-inline-sup:first-child, .block-inline-sub:first-child {
+            background-color: lightblue;
+        }
+        .block-inline-button:last-child, .block-inline-div:last-child, .block-inline-span:last-child, .block-inline-p:last-child, .block-inline-input:last-child, .block-inline-cite:last-child, .block-inline-code:last-child, .block-inline-h1:last-child, .block-inline-sup:last-child, .block-inline-sub:last-child {
+            background-color: lightgreen;
         }
 /* Your CSS Code here. */
